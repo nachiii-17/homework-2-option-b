@@ -1,0 +1,90 @@
+---
+title: "Seattledata"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+install.packages("igraph")
+install.packages("leiden")
+install.packages("ggplot2")
+install.packages("ggraph")
+install.packages("tidyverse")
+# Load required libraries
+library(igraph)
+library(leiden)
+library(ggplot2)
+library(ggraph)
+library(tidyverse)
+
+
+
+# Load required package
+library(igraph)
+
+# Load the graph
+graph <- read_graph("C:\\Users\\Nachiket\\seattle_social_network.graphml", format = "graphml")
+
+cat("Trying Louvain...\n")
+louvain_result <- try(cluster_louvain(graph), silent = TRUE)
+
+if (inherits(louvain_result, "try-error") || length(membership(louvain_result)) == 0) {
+  cat("Louvain failed or found no communities.\n")
+} else {
+  cat("Louvain succeeded. Modularity:", modularity(louvain_result), "\n")
+  plot(louvain_result, graph, vertex.size = 5, vertex.label = NA, main = "Louvain Communities")
+}
+
+cat("Trying Leiden...\n")
+leiden_result <- tryCatch({
+  if (!requireNamespace("leiden", quietly = TRUE)) {
+    cat("Leiden package not installed. Skipping.\n")
+    NULL
+  } else {
+    leiden::leiden(graph)
+  }
+}, error = function(e) NULL)
+
+if (is.null(leiden_result)) {
+  cat("Leiden failed or skipped.\n")
+} else {
+  cat("Leiden succeeded. Communities found:", length(unique(leiden_result)), "\n")
+  plot(graph, vertex.color = leiden_result, vertex.size = 5, vertex.label = NA, main = "Leiden Communities")
+}
+
+# If Louvain and Leiden failed
+if ((inherits(louvain_result, "try-error") || length(membership(louvain_result)) == 0) &&
+    (is.null(leiden_result))) {
+
+  # Walktrap
+  cat("Trying Walktrap...\n")
+  walktrap_result <- cluster_walktrap(graph)
+  cat("Walktrap Modularity:", modularity(walktrap_result), "\n")
+  plot(walktrap_result, graph, vertex.size = 5, vertex.label = NA, main = "Walktrap Communities")
+
+  # Infomap
+  cat("Trying Infomap...\n")
+  infomap_result <- cluster_infomap(graph)
+  cat("Infomap Modularity:", modularity(infomap_result), "\n")
+  plot(infomap_result, graph, vertex.size = 5, vertex.label = NA, main = "Infomap Communities")
+
+  # Choose better
+  better <- ifelse(modularity(walktrap_result) > modularity(infomap_result), "Walktrap", "Infomap")
+  cat("Better algorithm is:", better, "\n")
+}
+
+
+
+
+
+
+```

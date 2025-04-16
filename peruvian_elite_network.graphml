@@ -1,0 +1,954 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d0" for="node" attr.name="Multinacional" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="Romero">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Graña">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Miro Quesada">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Moreyra">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Fort">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="De La Puente">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Wiese">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Onrubia">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Brescia">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Nicolini">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Montero">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Picaso">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Bentin">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Benavides">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Bustamante">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Woodman Pollit">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Raffo">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Piazza">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Berckemeyer">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Llosa Barber">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Beoutis Ledesma">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Rizo Patron">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Montori">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Sotomayor">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Cilloniz">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Ferreyros">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Michell">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Wong Lu">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Batievsky Spack">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Matos Escalada">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Galsky">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Lucioni">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Rodriguez Rodríguez">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Custer">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Ikeda">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Cogorno">
+      <data key="d0">0</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <node id="Arias Davila">
+      <data key="d0">1</data>
+      <data key="d1">elite_member</data>
+    </node>
+    <edge source="Romero" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Romero" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Graña" target="Michell">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Miro Quesada" target="Michell">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Picaso">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Moreyra" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Picaso">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Fort" target="Cilloniz">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="De La Puente" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wiese" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Onrubia" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Brescia" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Nicolini" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Picaso">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montero" target="Ferreyros">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Picaso" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Picaso" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Picaso" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Picaso" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Picaso" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Picaso" target="Cilloniz">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Ferreyros">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bentin" target="Wong Lu">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Benavides" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Picaso">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Cilloniz">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Bustamante" target="Ferreyros">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Woodman Pollit" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Raffo" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Benavides">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Piazza" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Berckemeyer" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Woodman Pollit">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Llosa Barber" target="Beoutis Ledesma">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Piazza">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Beoutis Ledesma" target="Llosa Barber">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="Nicolini">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Rizo Patron" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Romero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Onrubia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Brescia">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Raffo">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Montori" target="Cilloniz">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Moreyra">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="De La Puente">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Wiese">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Picaso">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Berckemeyer">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Rizo Patron">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Sotomayor" target="Cilloniz">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Cilloniz" target="Fort">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Cilloniz" target="Picaso">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Cilloniz" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Cilloniz" target="Montori">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Cilloniz" target="Sotomayor">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Ferreyros" target="Montero">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Ferreyros" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Ferreyros" target="Bustamante">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Michell" target="Graña">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Michell" target="Miro Quesada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Wong Lu" target="Bentin">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Batievsky Spack" target="Matos Escalada">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Batievsky Spack" target="Galsky">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Matos Escalada" target="Batievsky Spack">
+      <data key="d2">connection</data>
+    </edge>
+    <edge source="Galsky" target="Batievsky Spack">
+      <data key="d2">connection</data>
+    </edge>
+  </graph>
+</graphml>

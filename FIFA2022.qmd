@@ -1,0 +1,91 @@
+---
+title: "FIFA2022"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{# Install required packages}
+install.packages("quarto")
+install.packages("igraph")       # For network analysis and visualization
+install.packages("leiden")      # For Leiden community detection algorithm
+install.packages("ggraph")      # For network visualization with ggplot2
+install.packages("tidygraph")   # For tidy network analysis workflows
+install.packages("patchwork")   # For combining multiple ggplot2 plots
+
+# After installation, load them
+library(igraph)
+library(leiden)
+library(ggraph)
+library(tidygraph)
+library(patchwork)
+
+# Verify installations
+packageVersion("igraph")     # Should return version 2.0.0 or higher
+packageVersion("leiden")     # Should return version 0.3.9 or higher
+
+library(igraph)
+library(ggraph)
+library(tidygraph)
+library(patchwork)
+library(dplyr)
+
+# Load the graph
+g <- read_graph("C:\\Users\\Nachiket\\fifa2022_graph.graphml", format = "graphml")
+
+# Filter only 'country' nodes
+country_nodes <- V(g)[V(g)$type == "country"]
+country_graph <- induced_subgraph(g, vids = country_nodes)
+
+# Convert to undirected graph
+g_country <- as.undirected(country_graph, mode = "collapse")
+
+# Girvan–Newman
+gn_comm <- cluster_edge_betweenness(g_country)
+V(g_country)$gn_comm <- membership(gn_comm)
+
+if (packageVersion("igraph") >= "1.3.0") {
+  leiden_comm <- cluster_leiden(g_country)
+} else {
+  cat("Leiden not available, using Louvain instead.\n")
+  leiden_comm <- cluster_louvain(g_country)
+}
+V(g_country)$leiden_comm <- membership(leiden_comm)
+
+# ✅ Convert to tidygraph and include label manually
+tg <- as_tbl_graph(g_country) %>%
+  mutate(label = name,
+         gn_comm = as.factor(gn_comm),
+         leiden_comm = as.factor(leiden_comm))
+
+p1 <- ggraph(tg, layout = "fr") +
+  geom_edge_link(alpha = 0.3) +
+  geom_node_point(aes(color = gn_comm), size = 5) +
+  geom_node_text(aes(label = label), repel = TRUE, size = 3) +
+  labs(title = "Girvan–Newman Communities") +
+  theme_void()
+
+# Plot: Leiden
+p2 <- ggraph(tg, layout = "fr") +
+  geom_edge_link(alpha = 0.3) +
+  geom_node_point(aes(color = leiden_comm), size = 5) +
+  geom_node_text(aes(label = label), repel = TRUE, size = 3) +
+  labs(title = "Leiden Communities") +
+  theme_void()
+
+
+
+
+
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+
+```
+

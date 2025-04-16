@@ -1,0 +1,64 @@
+---
+title: "Peru data"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+install.packages("quarto")
+install.packages("leidenAlg")
+install.packages("igraph")
+
+library(igraph)
+library(leidenAlg)
+
+peru_g <- read_graph("C:\\Users\\Nachiket\\peruvian_elite_network.graphml", format = "graphml")
+
+# 3. CONVERT TO UNDIRECTED
+peru_undir <- as.undirected(peru_g)
+
+# 4. RUN COMMUNITY DETECTION
+louvain_result <- cluster_louvain(peru_undir)       # Louvain algorithm
+leiden_result <- leiden.community(peru_undir)       # Leiden algorithm
+
+# 5. PLOT RESULTS (corrected)
+par(mfrow = c(1, 2))  # Show both plots side-by-side
+
+# Louvain plot
+plot(louvain_result, 
+     peru_undir,
+     main = "Louvain Communities",
+     vertex.size = 8,
+     vertex.label = NA)
+
+# Leiden plot
+plot(leiden_result, 
+     peru_undir,
+     main = "Leiden Communities",
+     vertex.size = 8,
+     vertex.label = NA)
+
+# 6. COMPARE MODULARITY
+cat("Louvain Modularity:", modularity(louvain_result), "\n")
+cat("Leiden Modularity:", modularity(leiden_result), "\n")
+
+
+
+```
+
+\
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
